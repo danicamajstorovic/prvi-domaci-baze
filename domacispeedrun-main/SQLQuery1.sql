@@ -1,0 +1,12 @@
+CREATE DATABASE domaci1
+
+USE domaci1
+
+CREATE TABLE Knjiga (
+	ID INT,
+	Naslov NVARCHAR(50),
+	Autor NVARCHAR(50),
+	BrojStrana INT,
+	Povez NVARCHAR(50),
+	PRIMARY KEY (ID)
+)
